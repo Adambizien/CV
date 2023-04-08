@@ -1,0 +1,236 @@
+/*body style*/
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: #DCDCDC;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*la tête et les pieds*/
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: #7F0000;
+    box-shadow: 0px 0px 15px #333333;
+}
+header{
+    border-bottom: 1px solid #DCDCDC;
+    height: 100px;
+}
+header h1{
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer{
+    border-top: 2px solid #DCDCDC;
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+/*Les sections*/
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section > div{
+    width: 90%;
+}
+
+/*Section infos*/
+.image{
+    text-align: end;
+}
+.image img{
+    width: 175px;
+    height: 175px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 30%;
+    margin-top: -80px;
+}
+.moi{
+    border-bottom: 2px dashed #ccc;
+}
+.info1{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.info1 p:first-child{
+    flex: 0 0 50%;
+}
+.info1 p:last-child{
+    flex: 0 0 100%;
+}
+
+/*Section xp et formation*/
+.xp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.xpinfo{
+    display: flex;
+    flex-flow: column wrap;
+}
+.xplogo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.xpinfo{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.xp img{
+    width: 100%;
+}
+.xp h3{
+    font-size:  1.2em;
+}
+.xp h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+/*Section competences*/
+.sect-comp{
+    width: 90%;
+}
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.barrevide{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.b85{
+    width: 85%;
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+.b90{
+    width: 90%;
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+.b95{
+    width: 95%;
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+.b75{
+    width: 75%;
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+.b80{
+    width: 80%;
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+.b20{
+    width: 20%;
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+.b30{
+    width: 30%;
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+.b40{
+    width: 40%;
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.barrevide2{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+/*Section interets*/
+.int{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.int img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+}
+
+/*modification forma*/
+
+section{
+    width: 80%;
+    box-shadow: 0px 0px 10px #bbb;
+}
+
+header h1{
+    width: 80%;
+}
+.xplogo{
+    flex: 0 0 10%;
+}
+.xpinfo, .xpdesc{
+    flex: 0 0 85%;
+    margin-left: auto;
+}
+.int{
+    flex: 0 1 25%;
+}
